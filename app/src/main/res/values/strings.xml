@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="button_1">FrameLayout</string>
+    <string name="button_2">RelativeLayout</string>
+    <string name="button_3">LinearLayout</string>
+    <string name="button_4">TableLayout</string>
 </resources>
