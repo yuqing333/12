@@ -3,52 +3,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/top_distance" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="@dimen/top_distance">
+
         <TextView
-            android:layout_width="15dp"
-            android:layout_height="@dimen/text_height" />
-        <TextView
-            android:layout_width="@dimen/text_width"
+            android:layout_weight="1"
+            android:layout_width="0dp"
             android:layout_height="@dimen/text_height"
             android:background="@color/colorGrey"/>
         <TextView
-            android:layout_width="@dimen/text_width"
+            android:layout_weight="1"
             android:layout_height="@dimen/text_height"
+            android:layout_width="0dp"
             android:background="@color/colorBlack"/>
         <TextView
-            android:layout_width="@dimen/text_width"
+            android:layout_weight="1"
             android:layout_height="@dimen/text_height"
+            android:layout_width="0dp"
             android:background="@color/colorGrey"/>
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/top_distance" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:padding="@dimen/top_distance">
+
         <TextView
-            android:layout_width="15dp"
-            android:layout_height="@dimen/text_height" />
-        <TextView
-            android:layout_width="@dimen/text_width"
             android:layout_height="@dimen/text_height"
+            android:layout_width="0dp"
+            android:layout_weight="2"
             android:background="@color/colorGrey"/>
+
         <TextView
-            android:layout_width="@dimen/text_width"
-            android:layout_height="@dimen/text_height"
-            android:background="@color/colorGrey"/>
-        <TextView
-            android:layout_width="@dimen/text_width"
+            android:layout_weight="1"
+            android:layout_width="0dp"
             android:layout_height="@dimen/text_height"
             android:background="@color/colorBlack"/>
 

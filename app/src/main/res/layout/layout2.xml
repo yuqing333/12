@@ -42,195 +42,77 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="@dimen/top_distance"
         android:id="@+id/text6"/>
-
     <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorBlack"
-        android:layout_marginTop="@dimen/top_distance"
+        android:layout_height="300dp"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
         android:layout_below="@id/text4"
-        android:id="@+id/text21"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorWhite"
-        android:layout_toRightOf="@id/text21"
-        android:layout_alignTop="@id/text21"
-        android:id="@+id/text22"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorWhite"
-        android:layout_toRightOf="@id/text22"
-        android:layout_alignTop="@id/text22"
-        android:id="@+id/text23"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorWhite"
-        android:layout_toRightOf="@id/text23"
-        android:layout_alignTop="@id/text23"
-        android:id="@+id/text24"/>
-
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorBlack"
-        android:layout_below="@id/text21"
-        android:id="@+id/text31"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorBlack"
-        android:layout_toRightOf="@id/text31"
-        android:layout_alignTop="@id/text31"
-        android:id="@+id/text32"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorWhite"
-        android:layout_toRightOf="@id/text32"
-        android:layout_alignTop="@id/text32"
-        android:id="@+id/text33"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorWhite"
-        android:layout_toRightOf="@id/text33"
-        android:layout_alignTop="@id/text33"
-        android:id="@+id/text34"/>
-
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorBlack"
-        android:layout_below="@id/text31"
-        android:id="@+id/text41"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorBlack"
-        android:layout_toRightOf="@id/text41"
-        android:layout_alignTop="@id/text41"
-        android:id="@+id/text42"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorBlack"
-        android:layout_toRightOf="@id/text42"
-        android:layout_alignTop="@id/text42"
-        android:id="@+id/text43"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorWhite"
-        android:layout_toRightOf="@id/text43"
-        android:layout_alignTop="@id/text43"
-        android:id="@+id/text44"/>
-
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorGrey"
-        android:layout_below="@id/text41"
-        android:id="@+id/text51"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorGrey"
-        android:layout_toRightOf="@id/text51"
-        android:layout_alignTop="@id/text51"
-        android:id="@+id/text52"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorGrey"
-        android:layout_toRightOf="@id/text52"
-        android:layout_alignTop="@id/text52"
-        android:id="@+id/text53"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorWhite"
-        android:layout_toRightOf="@id/text53"
-        android:layout_alignTop="@id/text53"
-        android:id="@+id/text54"/>
-
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorGrey"
-        android:layout_below="@id/text51"
-        android:id="@+id/text61"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorGrey"
-        android:layout_toRightOf="@id/text61"
-        android:layout_alignTop="@id/text61"
-        android:id="@+id/text62"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorWhite"
-        android:layout_toRightOf="@id/text62"
-        android:layout_alignTop="@id/text62"
-        android:id="@+id/text63"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorWhite"
-        android:layout_toRightOf="@id/text63"
-        android:layout_alignTop="@id/text63"
-        android:id="@+id/text64"/>
-
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorGrey"
-        android:layout_below="@id/text61"
-        android:id="@+id/text71"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorWhite"
-        android:layout_toRightOf="@id/text71"
-        android:layout_alignTop="@id/text71"
-        android:id="@+id/text72"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorWhite"
-        android:layout_toRightOf="@id/text72"
-        android:layout_alignTop="@id/text72"
-        android:id="@+id/text73"/>
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorWhite"
-        android:layout_toRightOf="@id/text73"
-        android:layout_alignTop="@id/text73"
-        android:id="@+id/text74"/>
-
-    <TextView
-        android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
-        android:background="@color/colorGrey"
-        android:layout_below="@id/text71"
         android:layout_marginTop="@dimen/top_distance"
-        android:id="@+id/text81"/>
+        android:id="@+id/text7"/>
+
     <TextView
         android:layout_height="@dimen/text_height"
-        android:layout_width="@dimen/text_width"
+        android:layout_width="100dp"
         android:background="@color/colorBlack"
-        android:layout_toRightOf="@id/text81"
-        android:layout_alignTop="@id/text81"
-        android:id="@+id/text82"/>
+        android:layout_alignTop="@id/text7"
+        android:id="@+id/text8"/>
+
+    <TextView
+        android:layout_height="@dimen/text_height"
+        android:layout_width="200dp"
+        android:background="@color/colorBlack"
+        android:layout_below="@id/text8"
+        android:id="@+id/text9"/>
+
+    <TextView
+        android:layout_height="@dimen/text_height"
+        android:layout_width="300dp"
+        android:background="@color/colorBlack"
+        android:layout_below="@id/text9"
+        android:id="@+id/text10"/>
+
+    <TextView
+        android:layout_height="@dimen/text_height"
+        android:layout_width="300dp"
+        android:background="@color/colorGrey"
+        android:layout_below="@id/text10"
+        android:id="@+id/text11"/>
+
+    <TextView
+        android:layout_height="@dimen/text_height"
+        android:layout_width="200dp"
+        android:background="@color/colorGrey"
+        android:layout_below="@id/text11"
+        android:id="@+id/text12"/>
+
+    <TextView
+        android:layout_height="@dimen/text_height"
+        android:layout_width="100dp"
+        android:background="@color/colorGrey"
+        android:layout_below="@id/text12"
+        android:id="@+id/text13"/>
+
     <TextView
         android:layout_height="@dimen/text_height"
         android:layout_width="@dimen/text_width"
         android:background="@color/colorGrey"
-        android:layout_toRightOf="@id/text82"
-        android:layout_alignTop="@id/text82"
-        android:id="@+id/text83"/>
+        android:layout_below="@id/text7"
+        android:layout_marginTop="@dimen/top_distance"
+        android:id="@+id/text14"/>
+
+    <TextView
+        android:layout_height="@dimen/text_height"
+        android:layout_width="@dimen/text_width"
+        android:background="@color/colorBlack"
+        android:layout_toRightOf="@id/text14"
+        android:layout_alignTop="@id/text14"
+        android:id="@+id/text15"/>
+
+    <TextView
+        android:layout_height="@dimen/text_height"
+        android:layout_width="@dimen/text_width"
+        android:background="@color/colorGrey"
+        android:layout_toRightOf="@id/text15"
+        android:layout_alignTop="@id/text15"
+        android:id="@+id/text16"/>
 </RelativeLayout>
