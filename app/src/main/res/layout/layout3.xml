@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_distance" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="@dimen/text_height" />
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="@dimen/text_height"
+            android:background="@color/colorGrey"/>
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="@dimen/text_height"
+            android:background="@color/colorBlack"/>
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="@dimen/text_height"
+            android:background="@color/colorGrey"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_distance" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="@dimen/text_height" />
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="@dimen/text_height"
+            android:background="@color/colorGrey"/>
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="@dimen/text_height"
+            android:background="@color/colorGrey"/>
+        <TextView
+            android:layout_width="@dimen/text_width"
+            android:layout_height="@dimen/text_height"
+            android:background="@color/colorBlack"/>
+
+    </LinearLayout>
+
+</LinearLayout>
